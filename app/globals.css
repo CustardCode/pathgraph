@@ -223,7 +223,11 @@ a { color: inherit; text-decoration: none; }
 .career-card:hover, .career-card:focus-visible { transform: translateY(-5px); box-shadow: 0 14px 30px rgba(20,43,43,.1); }
 .career-card > span { text-transform: uppercase; letter-spacing: .1em; font-size: 9px; font-weight: 800; }
 .career-card h3 { font-family: var(--serif); font-size: clamp(26px, 2.2vw, 32px); line-height: 1; font-weight: 400; margin: 50px 0 20px; overflow-wrap: normal; word-break: normal; hyphens: none; text-wrap: balance; }
-.career-card p { font-size: 12px; line-height: 1.6; color: var(--ink-so…78 tokens truncated…dding: 100px max(6vw, calc((100vw - 1320px) / 2)); display: grid; grid-template-columns: 1fr 1.05fr; gap: 80px; }
+.career-card p { font-size: 12px; line-height: 1.6; color: var(--ink-soft); }
+.career-card strong { margin-top: auto; font-family: var(--serif); font-size: 18px; font-weight: 400; }
+.career-card i { font-style: normal; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; margin-top: 18px; }
+
+.method-section { background: var(--ink); color: white; padding: 100px max(6vw, calc((100vw - 1320px) / 2)); display: grid; grid-template-columns: 1fr 1.05fr; gap: 80px; }
 .method-section .section-kicker { color: var(--lime); }
 .method-section h2 { font-size: clamp(45px, 5vw, 70px); }
 .method-section ol { margin: 0; padding: 0; list-style: none; border-top: 1px solid rgba(255,255,255,.2); }
@@ -468,4 +472,3 @@ footer { min-height: 110px; padding: 30px 5vw; display: flex; align-items: cente
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
-
